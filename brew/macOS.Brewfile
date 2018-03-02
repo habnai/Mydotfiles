@@ -1,5 +1,4 @@
 ##################### taps #####################
-tap "heroku/brew"
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
@@ -14,7 +13,6 @@ brew "extract_url" # for urlview tmux plugin
 brew "fish"
 brew "gifsicle" # for gif_compress fish function
 brew "git"
-brew "heroku"
 brew "python3"
 brew "httpie"
 brew "hub"
@@ -22,7 +20,6 @@ brew "mariadb", restart_service: true
 brew "mas"
 brew "p7zip"
 brew "pipenv"
-brew "postgresql", restart_service: true
 brew "reattach-to-user-namespace" # for tmux commands to work
 brew "redis", restart_service: true
 brew "tldr"
@@ -38,15 +35,11 @@ brew "z"
 cask "alfred"
 cask "bartender"
 cask "docker"
-cask "dropbox"
 cask "firefox"
-cask "gimp"
 cask "google-chrome"
 # can be removed if media keys started working like they should again
 cask "highsierramediakeyenabler"
 cask "iterm2"
-cask "postico"
-cask "postman"
 cask "private-internet-access"
 cask "remote-mouse"
 cask "sequel-pro"
