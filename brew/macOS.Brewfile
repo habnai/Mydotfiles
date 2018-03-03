@@ -50,8 +50,3 @@ cask "the-unarchiver"
 cask "vlc"
 cask "zoom"
 cask "caskroom/fonts/font-fira-mono-for-powerline" # for iTerm2 powerline
-
-##################### mas #####################
-mas "Amphetamine", id: 937984704
-mas "GIPHY CAPTURE", id: 668208984
-
